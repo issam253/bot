@@ -114,7 +114,7 @@ module.exports = {
 			}
 		}
 		else if (
-			(args[0] || "").toLowerCase() == "loadall"
+			(args[0] || "").toLowerCase() == "الكل"
 			|| (args[0] == "load" && args.length > 2)
 		) {
 			const fileNeedToLoad = args[0].toLowerCase() == "loadall" ?
