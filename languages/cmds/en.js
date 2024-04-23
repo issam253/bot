@@ -1,16 +1,16 @@
 module.exports = {
 	// You can customize the language here or directly in the command files
 	onlyadminbox: {
-		description: "turn on/off only admin box can use bot",
+		description: "تشغيل/إيقاف تشغيل صندوق الإدارة فقط يمكنه استخدام الروبوت",
 		guide: "   {pn} [on | off]",
 		text: {
-			turnedOn: "Turned on the mode only admin of group can use bot",
-			turnedOff: "Turned off the mode only admin of group can use bot",
-			syntaxError: "Syntax error, only use {pn} on or {pn} off"
+			turnedOn: "تم تشغيل الوضع، حيث يمكن لمسؤول المجموعة فقط استخدام الروبوت",
+			turnedOff: "تم إيقاف تشغيل الوضع، حيث يمكن لمسؤول المجموعة فقط استخدام الروبوت",
+			syntaxError: "خطأ في بناء الجملة، استخدم {pn} فقط للتشغيل أو {pn} للإيقاف"
 		}
 	},
 	adduser: {
-		description: "Add user to box chat of you",
+		description: "أضف مستخدمًا إلى صندوق الدردشة الخاص بك",
 		guide: "   {pn} [link profile | uid]",
 		text: {
 			alreadyInGroup: "Already in group",
