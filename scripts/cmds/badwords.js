@@ -67,16 +67,16 @@ module.exports = {
 			notExist: "❌ | %1 الكلمات المحظورة لم تكن موجودة في القائمة قبل: %2",
 			emptyList: "⚠️ | قائمة الكلمات المحظورة في مجموعتك فارغة حاليًا",
 			badWordsList: "📑 | قائمة الكلمات المحظورة في مجموعتك: %1",
-			OnlyAdmin3: "⚠️ | يمكن للمسؤولين فقط %1 هذه الميزة"،
-    TurnOnOrOff: "✅ | تحذير الكلمات المحظورة %1"،
-    OnlyAdmin4: "⚠️ | يمكن للمسؤولين فقط حذف تحذير الكلمات المحظورة"،,
-			missingTarget: "⚠️ | لم تقم بإدخال معرف المستخدم أو المستخدم الذي تم وضع علامة عليه",
-			notWarned: "⚠️ | لم يتم تحذير المستخدم %1 بشأن الكلمات المحظورة",
-			removedWarn: "✅ | المستخدم %1 | تمت إزالة %2 تحذير واحد من الكلمات المحظورة",
-			warned: "⚠️ | تم اكتشاف كلمات محظورة \"%1\" في رسالتك، إذا واصلت الانتهاك، فسيتم طردك من المجموعة.",
-			warned2: "⚠️ | تم اكتشاف الكلمات المحظورة \"%1\" في رسالتك، لقد انتهكت مرتين وسيتم طردك من المجموعة.",
-			needAdmin: "يحتاج الروبوت إلى امتيازات المسؤول لطرد الأعضاء المحظورين",
-			unwarned: "✅ | تمت إزالة تحذير الكلمات المحظورة للمستخدم %1 | %2"
+			onlyAdmin3: "⚠️ | Only admins can %1 this feature",
+    turnedOnOrOff: "✅ | Banned words warning has been %1",
+     onlyAdmin4: "⚠️ | Only admins can delete banned words warning",
+    missingTarget: "⚠️ | You haven't entered user ID or tagged user",
+    notWarned: "⚠️ | User %1 has not been warned for banned words",
+    removedWarn: "✅ | User %1 | %2 has been removed 1 banned words warning",
+    warned: "⚠️ | Banned words \"%1\" have been detected in your message, if you continue to violate you will be kicked from the group.",
+     warned2: "⚠️ | Banned words \"%1\" have been detected in your message, you have violated 2 times and will be kicked from the group.",
+     needAdmin: "Bot needs admin privileges to kick banned members",
+      unwarned: "✅ | Removed banned words warning of user %1 | %2"
 		}
 	},
 
