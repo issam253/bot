@@ -96,22 +96,22 @@ handlerEvents.onlyAdminBot=❌ | أنت مش ادمن ياغبي 🤡
 handlerEvents.commandNotFound=الامر "%1" غير موجود, استخدم %2الاوامر لعرض كافة الاوامر 🌝
 handlerEvents.commandNotFound2=هاذا الاوامر غير موجود 🌝\nإستخدم /الاوامر لعرض كافة اوامر البوت 
 handlerEvents.commandSyntaxError=أستخدام خاطئ ❌\n لاستخدام الأمر اكتب %1شرح %2 لعرض كيفية استخدام الامر
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
-handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
-handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
-handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
-handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
-handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
-handlerEvents.errorOccurred4=❌ [ %1 ]\nAn error occurred when executing onReaction at command "%2"\n\n%3
-handlerEvents.errorOccurred5=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred6=❌ [ %1 ]\nAn error occurred when executing onEvent at command "%2"\n\n%3
-handlerEvents.errorOccurred7=❌ [ %1 ]\nAn error occurred when executing onAnyEvent at command "%2"\n\n%3
-handlerEvents.cannotFindCommandName=❌ Cannot find command name to execute this reply!
-handlerEvents.cannotFindCommand=❌ Cannot find command "%1" to execute this reply!
+handlerEvents.onlyAdmin=❌ | وحدهم ادمن المجموعة  يستطيعون استعمال الامر د"%1"
+handlerEvents.onlyAdminToUseOnReply=❌ | يمكن لمسؤولي المجموعة فقط استخدام وظيفة الرد الخاصة بالأمر "%1"
+handlerEvents.onlyAdminToUseOnReaction=❌ | يمكن لمسؤولي المجموعة فقط استخدام وظيفة رد الفعل الخاصة بالأمر "%1"
+handlerEvents.onlyAdminBot2=❌ | وحدهم ادمن هم الذين يستطيعون استعمال الامر "%1"
+handlerEvents.onlyAdminBot2ToUseOnReply=❌ | يمكن لمسؤول الروبوت فقط استخدام وظيفة الرد الخاصة بالأمر "%1"
+handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | يمكن لمسؤول الروبوت فقط استخدام وظيفة رد الفعل الخاصة بالأمر "%1"
+handlerEvents.waitingForCommand=⏱ أنت في انتظار استخدام هذا الأمر، يرجى العودة بعد انتهاء الوقت %1s
+handlerEvents.errorOccurred=❌ [ %1 ]\nحدث خطأ  "%2"\n\n%3
+handlerEvents.errorOccurred2=❌ [ %1 ]\n حدث خطأ في الأمر onChat في الأمر "%2"\n\n%3
+handlerEvents.errorOccurred3=❌ [ %1 ]\n حدث خطأ أثناء تنفيذ onReply عند الأمر "%2"\n\n%3
+handlerEvents.errorOccurred4=❌ [ %1 ]\n حدث خطأ أثناء تنفيذ onReaction عند الأمر "%2"\n\n%3
+handlerEvents.errorOccurred5=❌ [ %1 ]\n حدث خطأ أثناء تنفيذ onEvent عند الأمر "%2"\n\n%3
+handlerEvents.errorOccurred6=❌ [ %1 ]\n حدث خطأ أثناء تنفيذ onEvent عند الأمر "%2"\n\n%3
+handlerEvents.errorOccurred7=❌ [ %1 ]\n حدث خطأ أثناء تنفيذ onAnyEvent عند الأمر "%2"\n\n%3
+handlerEvents.cannotFindCommandName=❌ لا يمكن العثور على اسم الأمر لتنفيذ هذا الرد!
+handlerEvents.cannotFindCommand=❌ لا يمكن العثور على الأمر "%1" لتنفيذ هذا الرد!
 
 # bot/autoUptime.js
 autoUptime.autoUptimeTurnedOn=AutoUptime mode turned on
@@ -141,7 +141,7 @@ updater.skipFile=There is a new version of the %1 file, but you have skipped thi
 verifyfbid.sendCode=Your verification code is:\n%1\nThe verification code is valid for %2 minutes
 
 # utils.js
-utils.errorOccurred=❌ An error occurred:\n\n%1
+utils.errorOccurred=❌ حدث خطاء:\n\n%1
 
 # for command
 command.restartedBot=Bot has been restarted
