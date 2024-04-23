@@ -54,8 +54,8 @@ module.exports = {
 			unwarned: "✅ | Đã xóa bỏ cảnh báo vi phạm từ cấm của người dùng %1 | %2"
 		},
 		en: {
-			onText: "تشغيل",
-			offText: "ايقاف",
+			onText: "on",
+			offText: "off",
 			onlyAdmin: "⚠️ | يمكن للمسؤولين فقط إضافة الكلمات المحظورة إلى القائمة",
 			missingWords: "⚠️ | لم تقم بإدخال الكلمات المحظورة",
 			addedSuccess: "✅ | تمت إضافة %1 كلمة محظورة إلى القائمة",
