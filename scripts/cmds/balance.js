@@ -1,6 +1,6 @@
 module.exports = {
 	config: {
-		name: "balance",
+		name: "نقودي",
 		aliases: ["bal"],
 		version: "1.2",
 		author: "NTKhang",
@@ -8,14 +8,14 @@ module.exports = {
 		role: 0,
 		description: {
 			vi: "xem số tiền hiện có của bạn hoặc người được tag",
-			en: "view your money or the money of the tagged person"
+			en: "عرض أموالك أو أموال الشخص الموسوم"
 		},
-		category: "economy",
+		category: "العاب",
 		guide: {
 			vi: "   {pn}: xem số tiền của bạn"
 				+ "\n   {pn} <@tag>: xem số tiền của người được tag",
-			en: "   {pn}: view your money"
-				+ "\n   {pn} <@tag>: view the money of the tagged person"
+			en: "   {pn}: عرض أموالك"
+				+ "\n   {pn} <@tag>: "
 		}
 	},
 
@@ -25,7 +25,7 @@ module.exports = {
 			moneyOf: "%1 đang có %2$"
 		},
 		en: {
-			money: "You have %1$",
+			money: "أنت تملك %1$",
 			moneyOf: "%1 has %2$"
 		}
 	},
