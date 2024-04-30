@@ -22,14 +22,19 @@ module.exports = {
                         defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
                 },
                 en: {
-                        session1: "صباح جميلا",
-                        session2: "نهاراً سعيدا",
-                        session3: "امسية مشرقة",
-                        session4: "ليلة سعيدة",
-                        welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
+                        session1: "صباح جميلا ☄️",
+                        session2: "نهاراً سعيدا 🐻",
+                        session3: "امسية مشرقة 😎",
+                        session4: "ليلة سعيدة 🛀",
+                        welcomeMessage: "تم توصيل البوت 🤡
+🐻 الباادئة: %1
+,  %1الاوامر لعرض كافة الاوامر ..." 
                         multiple1: "بك",
                         multiple2: "بكي",
-                         defaultWelcomeMessage: ` {userName}.\nمرحباً {multiple} في المجموعة: {boxName}\n اتمنى {multiple} {session} 😊`                }
+                         defaultWelcomeMessage: ` {userName} 🐻
+مرحباً {multiple} في المجموعة:
+ {boxName}
+ {session} `                }
         },
 
         onStart: async ({ threadsData, message, event, api, getLang }) => {
