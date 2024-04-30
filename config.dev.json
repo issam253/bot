@@ -26,7 +26,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "LUFFY BOY 🐻",
-  "prefix": "",
+  "prefix": "/",
   "database": {
     "type": "mongodb",
     "uriMongodb": "mongodb+srv://opo24038:fvPS35SZ28VPMAxK@cluster0.j8tkis0.mongodb.net/GoatBotV2?retryWrites=true&w=majority&appName=Cluster0",
